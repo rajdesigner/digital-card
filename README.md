@@ -1,4 +1,4 @@
-# co68645cca80c310078d7a3e2
+# Rajmani Digital Card
 
 Quick start:
 
