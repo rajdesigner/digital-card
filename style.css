@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   background: #23252C;
+}
+
+.container{
+    position: relative;
+    width: 550px;
+    height: 868px;
+    margin: auto;
+    padding: 44px 116px;
+}
+
+.main-content{
+    width: 317px;
+    height: 399px;
+    background: #F5F5F5;
+}
+
+.image-container{
+    width: 317px;
+    height: 317px;  
+    overflow: hidden
+}
+
+.profile-image{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.my-intro{
+    width: 100%;
+    text-align: center;
+    padding: 20px 59px 20px 59px;
+}
+
+.my--name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.06rem;
+    margin: 0;
+    padding: 0;
+}
+
+.my--designation{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 7px;
+    color: #F47D27;
+}
+
+.my--website{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+    color: #4A4E74;
+    padding-top: 6px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center
+}
+
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    /* gray/700 */
+    color: #374151;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-email{
+    /* white */
+    background: #FFFFFF;
+    /* gray/300 */
+    margin-right: 17px;
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+}
+
+.btn-linkedIn{
+    /* white */
+    background: #297FE5;
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+    color: #fff;
+    margin-right: auto
+}
+
+.static--container{
+    padding: 25px 35px 0px;
+}
+
+.static--title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #2B283A;
+    text-align: left;
+}
+
+.static--text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #4A4E74;
+    text-align: justify;
+}
+
+.footer{
+    background: #D5D4D8;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;
+    width: 100%;
+    margin-top: 31px;
+    padding: 19px 72px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around
+}
+
+.footer-list{
+    width: 25px;
+    height: 25px;
+    background: #918E9B;
+    border-radius: 3px;
+    list-style: none;
+}
